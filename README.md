@@ -32,7 +32,7 @@ These two parts require inputs in the format given below.
 | &ensp;&ensp;&boxur;&nbsp; YYY | Directory of one input pair
 | &ensp;&ensp;&ensp;&ensp;&boxvr;&nbsp; ... | ...
 
-Some examples are given in `./data_demo/`. As the code for translation has not been provided, you may use [The Face of Art] (https://faculty.idc.ac.il/arik/site/foa/face-of-art.asp) to obtain some results for now.
+Some examples are given in `./data_demo/`. As the code for translation has not been provided, you may use [The Face of Art](https://faculty.idc.ac.il/arik/site/foa/face-of-art.asp) to obtain some results for now.
 
 **Uasge**
 
