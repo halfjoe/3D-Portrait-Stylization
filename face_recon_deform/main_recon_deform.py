@@ -29,7 +29,7 @@ def prepare_deform():
             path_landmark_content = os.path.join(dir_one_data,name+'.txt')
             landmarks_content = get_landmarks_from_file(path_landmark_content)
             path_landmark_translated = os.path.join(dir_one_data,name+'_translated.txt')
-            landmarks_translated = get_landmarks_from_file(path_landmark_translated,1,1)
+            landmarks_translated = get_landmarks_from_file(path_landmark_translated)
             landmark_id = get_landmarks_from_file('LaplacianDeformerConsole/feature_id.txt')
 
             width_ratio = (landmarks_translated[16,0] - landmarks_translated[0,0]) / (landmarks_content[16,0] - landmarks_content[0,0])
