@@ -32,4 +32,12 @@ These two parts require inputs in the format given below.
 | &ensp;&ensp;&boxur;&nbsp; YYY | Directory of one input pair
 | &ensp;&ensp;&ensp;&ensp;&boxvr;&nbsp; ... | ...
 
-Some examples are given in `./data_demo/`. As the code for translation has not been provided, you may use [this work](https://faculty.idc.ac.il/arik/site/foa/face-of-art.asp) to obtain some results for now.
+Some examples are given in `./data_demo/`. As the code for translation has not been provided, you may use [The Face of Art] (https://faculty.idc.ac.il/arik/site/foa/face-of-art.asp) to obtain some results for now.
+
+**Uasge**
+
+Directly run `main_recon_deform.py` is OK, and you can also check the usage from the code. 
+
+In `./face_recon_deform/PhotoAvatarLib_exe/` is a compiled reconstruction program which takes one single image as input, automatically detects the landmarks and fits a 3DMM model towards the detected landmarks. The source code can be download [here](https://portland-my.sharepoint.com/:u:/g/personal/fangzhhan2-c_my_cityu_edu_hk/Ee0QVlheafhCsW3GygBJyawBhZIWpouaK6P0wJygVLg7LQ?e=PTQvVv). 
+
+In `./face_recon_deform/LaplacianDeformerConsole/` is a compiled deformation program which deforms a 3D mesh towards a set of 2D/3D landmark targets. You can find the explanation of the parameters by runing `LaplacianDeformerConsole.exe` without adding options. Please note that it only supports one mesh topology and cannot be used for deforming random meshes. The source code is not able to provide, and some other Laplacian or Laplacian-like deformation can be found in [SoftRas](https://github.com/ShichenLiu/SoftRas) and [libigl](https://libigl.github.io/libigl-python-bindings/tut-chapter3/#biharmonic-deformation).
