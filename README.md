@@ -14,6 +14,8 @@ Code under preparation. Dataset will be uploaded very soon.
 
 These two parts require Windows with GPU. They also require a simple Python environment with `opencv`, `imageio` and `numpy` for automatic batch file generation and execution. 
 
+Please download the [`regressor_large.bin`](https://portland-my.sharepoint.com/:u:/g/personal/fangzhhan2-c_my_cityu_edu_hk/EXdQXynEBkdHhvHLZLn1qh0BUmIxR_K5Mhp2fQKel95okQ?e=nVD9r6) and [`tensorMale.bin`](https://portland-my.sharepoint.com/:u:/g/personal/fangzhhan2-c_my_cityu_edu_hk/Ec3NvbEJ2-FNnlVmLMbzskMBnqd1Hs7X_Hxo527AM2r1sw?e=zbWH2l) and put them in `./face_recon_deform/PhotoAvatarLib_exe/Data/`.
+
 **Inputs**
 
 These two parts require inputs in the format given below.
