@@ -1,6 +1,6 @@
 # 3D-Portrait-Stylization
 
-This is the official code for the paper "Exemplar Based 3D Portrait Stylization".
+This is the official code for the paper "Exemplar Based 3D Portrait Stylization". You can check the paper on our [project website](https://halfjoe.github.io/projs/3DPS/index.html).
 
 The entire framework consists of four parts, landmark translation, face reconstruction, face deformation, and texture stylization. Codes (or programs) for the last three parts are ready now, and the first part is still under preparation. 
 
