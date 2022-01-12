@@ -15,7 +15,7 @@
 | &ensp;&ensp;&ensp;&ensp;&boxvr;&nbsp; XXX\_fit.jpg | \*Visualization of the reconstruction result
 | &ensp;&ensp;&ensp;&ensp;&boxvr;&nbsp; XXX\_photo.jpg | \*A copy of the input image
 | &ensp;&ensp;&ensp;&ensp;&boxvr;&nbsp; XXX\_proj.txt | \*Projection matrix parameters
-| &ensp;&ensp;&ensp;&ensp;&boxvr;&nbsp; XXX\ _trans.txt | \*Translation matrix parameters
+| &ensp;&ensp;&ensp;&ensp;&boxvr;&nbsp; XXX\_trans.txt | \*Translation matrix parameters
 | &ensp;&ensp;&boxur;&nbsp; YYY | Directory of one input pair
 | &ensp;&ensp;&ensp;&ensp;&boxvr;&nbsp; ... | ...
 
