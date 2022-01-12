@@ -23,6 +23,7 @@ def run(name_one_data, lr_textures=0.025, iteration=200, image_size=512, texture
     path_style = os.path.join(os.path.dirname(path_mesh), name_one_data + '_style.jpg')
     path_landmarks_style = os.path.join(os.path.dirname(path_mesh), name_one_data + '_style.txt')
     path_mesh_output = os.path.join(os.path.dirname(path_mesh), 'result_texture_transfer', name_one_data + '_face_fit_ortho_final.obj')
+    path_texture_output = os.path.join(os.path.dirname(path_mesh), 'result_texture_transfer', name_one_data + '_face_fit_ortho_final.png')
     dir_output = os.path.dirname(path_mesh_output)
     os.makedirs(dir_output, exist_ok=True)
 
@@ -176,7 +177,7 @@ def run(name_one_data, lr_textures=0.025, iteration=200, image_size=512, texture
                              torch.clamp(result_textures[0], 0, 1) * 255)
     texture_image = renderer_model.texture_image.detach().cpu().numpy()[0].transpose((1, 2, 0))
     texture_image = np.clip(texture_image, 0, 1) * 255
-    imageio.imsave('%s/texture_image.png' % dir_output, texture_image.astype(np.uint8))
+    imageio.imsave(path_texture_output, texture_image.astype(np.uint8))
 
 
 if __name__ == '__main__':
