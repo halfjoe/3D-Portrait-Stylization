@@ -67,3 +67,14 @@ mv build/lib.linux-x86_64-3.7/neural_renderer/cuda/*.so neural_renderer/cuda/
 ```
 
 Please download the [`vgg19_conv.pth`](https://portland-my.sharepoint.com/:u:/g/personal/fangzhhan2-c_my_cityu_edu_hk/EbK8vzgtULNHqhHy93WCHlQBoqHKsCyjAJVyKg0BJFS2_A?e=cNjHMZ) and put it in `./texture_style_transfer/transfer/models/`.
+
+**Inputs**
+
+You can directly use the outputs (and inputs) from the previous parts.
+
+**Usage**
+
+```
+cd texture_style_transfer
+python transfer/main_texture_transfer.py -dd ../data_demo_or_your_data_dir
+```
