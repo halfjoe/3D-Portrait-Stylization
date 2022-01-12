@@ -86,7 +86,7 @@ This code is built based heavliy on [Neural 3D Mesh Renderer](https://github.com
 ## Citation
 
 ```
-@ARTICLE{9547845,
+@ARTICLE{han2021exemplarbased,
 author={Han, Fangzhou and Ye, Shuquan and He, Mingming and Chai, Menglei and Liao, Jing},  
 journal={IEEE Transactions on Visualization and Computer Graphics},   
 title={Exemplar-Based 3D Portrait Stylization},   
