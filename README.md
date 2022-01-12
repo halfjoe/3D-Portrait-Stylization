@@ -78,3 +78,18 @@ You can directly use the outputs (and inputs) from the previous parts.
 cd texture_style_transfer
 python transfer/main_texture_transfer.py -dd ../data_demo_or_your_data_dir
 ```
+
+## Acknowledgements
+
+This code is built based heavliy on [Neural 3D Mesh Renderer](https://github.com/daniilidis-group/neural_renderer) and [STROTSS](https://github.com/human-aimachine-art/pytorch-STROTSS-improved).
+
+## Citation
+
+```
+@ARTICLE{9547845,
+author={Han, Fangzhou and Ye, Shuquan and He, Mingming and Chai, Menglei and Liao, Jing},  
+journal={IEEE Transactions on Visualization and Computer Graphics},   
+title={Exemplar-Based 3D Portrait Stylization},   
+year={2021},  
+doi={10.1109/TVCG.2021.3114308}}
+```
