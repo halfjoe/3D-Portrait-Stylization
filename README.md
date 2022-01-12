@@ -44,7 +44,7 @@ In `./face_recon_deform/LaplacianDeformerConsole/` is a compiled deformation pro
 
 **Outputs**
 
-Will add very soon.
+Please refer to `./face_recon_deform/readme_output.md`
 
 ## Texture Stylization
 
