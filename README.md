@@ -50,7 +50,7 @@ Please refer to `./face_recon_deform/readme_output.md`
 
 **Environment**
 
-The environment for this part is built with CUDA10.0, python3.7, and PyTorch1.2.0, using Conda. Create environment by:
+The environment for this part is built with CUDA 10.0, python 3.7, and PyTorch 1.2.0, using Conda. Create environment by:
 
 ```
 conda create -n YOUR_ENV_NAME python=3.7
@@ -63,10 +63,10 @@ The code uses neural-renderer, which is already compiled. However, if anything g
 
 ```
 python setup.py install
-mv build/lib.linux-x86_64-3.7/neural_renderer/cuda/*.so neural_renderer/cuda/
+mv build/lib.linux-x86_64-3.7-or-something-similar/neural_renderer/cuda/*.so neural_renderer/cuda/
 ```
 
-Please download the [`vgg19_conv.pth`](https://portland-my.sharepoint.com/:u:/g/personal/fangzhhan2-c_my_cityu_edu_hk/EbK8vzgtULNHqhHy93WCHlQBoqHKsCyjAJVyKg0BJFS2_A?e=cNjHMZ) and put it in `./texture_style_transfer/transfer/models/`.
+Please download [`vgg19_conv.pth`](https://portland-my.sharepoint.com/:u:/g/personal/fangzhhan2-c_my_cityu_edu_hk/EbK8vzgtULNHqhHy93WCHlQBoqHKsCyjAJVyKg0BJFS2_A?e=cNjHMZ) and put it in `./texture_style_transfer/transfer/models/`.
 
 **Inputs**
 
