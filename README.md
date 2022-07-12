@@ -2,11 +2,12 @@
 
 This is the official code for the paper "Exemplar Based 3D Portrait Stylization". You can check the paper on our [project website](https://halfjoe.github.io/projs/3DPS/index.html).
 
-The entire framework consists of four parts, landmark translation, face reconstruction, face deformation, and texture stylization. Codes (or programs) for the last three parts are ready now, and the first part is still under preparation. 
+The entire framework consists of four parts, landmark translation, face reconstruction, face deformation, and texture stylization. 
 
 ## Landmark Translation
 
-Code under preparation. Dataset can be downloaded [here](https://portland-my.sharepoint.com/:u:/g/personal/fangzhhan2-c_my_cityu_edu_hk/EXdhOdnthWZJgjXxand3E64B9rM-NJUj3iHcoeh_G_sDzw?e=Ar0cnE).
+The code for landmark translation can be found [here](https://github.com/pleaseconnectwifi/GeometryStyleTransfer).
+
 
 ## Face Reconstruction and Deformation
 
@@ -32,7 +33,7 @@ These two parts require inputs in the format given below.
 | &ensp;&ensp;&boxur;&nbsp; YYY | Directory of one input pair
 | &ensp;&ensp;&ensp;&ensp;&boxvr;&nbsp; ... | ...
 
-Some examples are given in `./data_demo/`. As the code for translation has not been provided, you may use [The Face of Art](https://faculty.idc.ac.il/arik/site/foa/face-of-art.asp) to obtain some results for now.
+Some examples are given in `./data_demo/`. 
 
 **Uasge**
 
